@@ -16,7 +16,7 @@ input{
 
 button{
     background-color: green;
-    border: none;
+    border: 1px;
     font-size: 16px;
     margin-top: 10px;
     padding: 10px 20px;
@@ -35,7 +35,11 @@ button:hover{
     color: pink;
     cursor: pointer;
 }   
-
+#delete-btn{
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+}
 ul{
     list-style: none;
     margin-left: 0;
